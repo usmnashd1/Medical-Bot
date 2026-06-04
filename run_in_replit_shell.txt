@@ -1,0 +1,3 @@
+set +H
+cd /home/runner/workspace || cd "$REPL_HOME" || exit 1
+python3 export_github_zip.py
